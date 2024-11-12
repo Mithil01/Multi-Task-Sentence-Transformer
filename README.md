@@ -22,8 +22,26 @@ This project implements a multi-task transformer that performs:
 - Training sentences: ~14,000
 - Test sentences: ~3,453
 
+## Sentence Transformer
+<p align="left">
+  <img src="https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/model.png" width="400">
+</p>
+   - **Model Configuration: **
+       - ‘Bert-base-uncased’ as backbone.
+       - Configurable embedding size.
+
+   - **Pooling strategy: **
+     - Implemented three different pooling strategies
+       1. Mean: averages pooling across all token embeddings.
+       2. Cls: Using [Cls] token out from pooler_output. 
+       3. Max: max pooling across token embeddings.
+
+   - **Embeddings Normalization:**
+     - Optional embeddings normalization.
+     - Used L1-norm.
+
+
 ## Model Architecture
-<img src="[your_image.png](https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/model.png))" style="max-width: 100%; height: auto;">
 <p align="left">
   <img src="https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/model.png" width="400">
 </p>
@@ -44,3 +62,16 @@ This project implements a multi-task transformer that performs:
 # Run training
 ``` python
 python src/training_application.py
+```
+
+## 2. Evaluate on test samples
+# Run training
+``` python
+python src/test.py
+```
+
+## 3. Streamlit application
+# Run training
+``` python
+streamlit run src/app.py
+```
