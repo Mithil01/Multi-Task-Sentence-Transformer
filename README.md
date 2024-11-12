@@ -7,15 +7,7 @@ This project implements a multi-task transformer that performs:
 - Named Entity Recognition: Using CoNLL2003 dataset (9 NER tags).
 
 ## Directory Structure
-'''markdown
-src/
-├── data_connector.py         # Dataset and collator implementations
-├── MultiTaskmodel.py         # Multi-task transformer architecture
-├── training.py              # Training logic and layer-wise optimization
-├── training_application.py  # Training execution and monitoring
-├── test.py                 # Model evaluation and testing
-├── app.py                  # Streamlit web interface
-└── requirements.txt        # Project dependencies
+[Alt text](./images/dir_struct)
 
 ## Datasets
  1. AG News (Classification)
