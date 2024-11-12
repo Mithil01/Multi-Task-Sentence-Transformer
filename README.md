@@ -106,38 +106,35 @@ SENTENCETRANSFORMER/
       - Highest Learning rate.
       
 ## Model Evaluation:
-   - Loss - Crossentropy
-   - Task weighing - 
-     - total_loss = classification_weight * classification_loss+ ner_weight * ner_loss
+   - **Loss**: Crossentropy
+   - **Task weighing**: total_loss = classification_weight * classification_loss+ ner_weight * ner_loss
        
-   - Metric - Accuracy 
+   - **Metric**: Accuracy
    - Number of epochs = 5
-     - Train Classification accuracy : 97.2%
-     - Validation Classification accuracy : 92.6%
-     - Train NER accuracy : 90.8%
-     - Validation NER accuracy : 89.9%
+   - Train Classification accuracy: 97.2,  Validation Classification accuracy: 92.6%
+   - Train NER accuracy: 90.8%,  Validation NER accuracy: 89.9%
        
 ## Components:
-   -  **Data Processing ('data_connector.py')**
+   -  **Data Processing (`data_connector.py`)**
          - Implements data loading for AG News and CoNLL2003 datasets
          - Custom collator for multi-task learning
            
-   -  **Model Architecture (MultiTaskmodel.py)**
+   -  **Model Architecture (`MultiTaskmodel.py`)**
          - Multi-task transformer implementation
            
-   -  **Training Implementation (training.py)**
+   -  **Training Implementation (`training.py`)**
          - Training loop and optimization
          - Layer-wise learning rates
          - Mixed precision training
            
-   -  **Training Execution (training_application.py)**
+   -  **Training Execution (`training_application.py`)**
          - Configures and runs training
          - Handles model saving and evaluation
         
-   -  **Model Testing (test.py)**
+   -  **Model Testing (`test.py`)**
          - Model evaluation on test datasets
            
-   -  **Web Interface (app.py)**
+   -  **Web Interface (`app.py`)**
          - Streamlit application for model demo
          
 
