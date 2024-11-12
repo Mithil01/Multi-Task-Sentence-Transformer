@@ -1,6 +1,5 @@
 # Multi-Task-Sentence-Transformer
 
-## Overview
 This project implements a multi-task transformer that performs:
 
 - Text Classification: Using AG News dataset (4 classes).
