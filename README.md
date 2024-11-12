@@ -156,4 +156,4 @@ streamlit run src/app.py
 ```
 
 ## Project Tasks Writeup
-[Doc]()
+[Doc](https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/Sentence_Transformer_tasks_writeup.pdf)
