@@ -1,12 +1,12 @@
 # Multi-Task-Sentence-Transformer
 
-##Overview
+## Overview
 This project implements a multi-task transformer that performs:
 
 Text Classification: Using AG News dataset (4 classes)
 Named Entity Recognition: Using CoNLL2003 dataset (9 NER tags)
 
-##Directory Structure
+## Directory Structure
 src/
 ├── data_connector.py         # Dataset and collator implementations
 ├── MultiTaskmodel.py         # Multi-task transformer architecture
