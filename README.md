@@ -51,8 +51,8 @@ This project implements a multi-task transformer that performs:
     - Shared tokenizer.
     - Common hidden size from base transformer.
 - **Task Specific heads:**
-      - 1. Classification head: performs hidden_size projection to num_classes.
-      - 2. Named Entity Recognition head: performs hidden_size projection to num_ner_labels.
+   - a. Classification head: performs hidden_size projection to num_classes.
+   - b. Named Entity Recognition head: performs hidden_size projection to num_ner_labels.
 
 - **Head Architecture:**
     - Both heads follow same structure i.e. dropout for regularization, layer norm, GELU, task specific final projection.
