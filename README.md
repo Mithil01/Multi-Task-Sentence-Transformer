@@ -116,6 +116,21 @@ SENTENCETRANSFORMER/
      - Validation Classification accuracy : 92.6%
      - Train NER accuracy : 90.8%
      - Validation NER accuracy : 89.9%
+       
+## Components:
+   1. Data Processing(data_connector.py)
+     - Implements data loading for AG News and CoNLL2003 datasets
+     - Handles data preprocessing and batching
+     - Custom collator for multi-task learning
+   2. Model Architecture (MultiTaskmodel.py)
+     - Multi-task transformer implementation
+     - Shared transformer backbone
+     - Task-specific heads for classification and NER
+   3. Training Implementation (training.py)
+     - Training loop and optimization
+     - Layer-wise learning rates
+     - Mixed precision training
+
     
 ## 2. Model Training
 ``` python
