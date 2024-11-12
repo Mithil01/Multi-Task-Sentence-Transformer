@@ -41,22 +41,22 @@ This project implements a multi-task transformer that performs:
      - Used L1-norm.
 
 
-## Model Architecture
+## Multi-task Sentence Transformer Architecture
 <p align="left">
   <img src="https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/model.png" width="400">
 </p>
-- Base Model: BERT-base-uncased
 
-- Tasks:
-  - Classification Head (4 classes)
-  - NER Head (9 labels)
+- **Shared component - bert-base-uncased:**
+    - Bert base transformer remains common.
+    - Shared tokenizer.
+    - Common hidden size from base transformer.
+- **Task Specific heads:**
+      1. Classification head: performs hidden_size projection to num_classes.
+      2. Named Entity Recognition head: performs hidden_size projection to num_ner_labels.
 
+- **Head Architecture:**
+    - Both heads follow same structure i.e. dropout for regularization, layer norm, GELU, task specific final projection.
 
-- Features:
-
-  - Shared transformer backbone
-  - Layer-wise learning rates
-  - Task-specific heads
 
 ## 2. Model Training
 # Run training
