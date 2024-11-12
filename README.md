@@ -7,7 +7,7 @@ This project implements a multi-task transformer that performs:
 - Named Entity Recognition: Using CoNLL2003 dataset (9 NER tags).
 
 ## Directory Structure
-[Alt text]([./images/dir_struct](https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/dir_struct.png))
+[Images Alt text](https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/dir_struct.png)
 
 ## Datasets
  1. AG News (Classification)
