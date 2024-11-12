@@ -5,6 +5,14 @@ This project implements a multi-task transformer that performs:
 - Text Classification: Using AG News dataset (4 classes).
 - Named Entity Recognition: Using CoNLL2003 dataset (9 NER tags).
 
+##Installation
+- Clone the repository
+git clone https://github.com/Mithil01/Multi-Task-Sentence-Transformer.git
+cd Multi-Task-Sentence-Transformer
+
+- Install dependencies
+pip install -r requirements.txt
+
 ## Directory Structure
 ![Images Alt text](https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/dir_struct.png)
 
