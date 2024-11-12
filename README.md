@@ -24,7 +24,9 @@ This project implements a multi-task transformer that performs:
 
 ## Model Architecture
 <img src="[your_image.png](https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/model.png))" style="max-width: 100%; height: auto;">
-![Images Alt text](https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/model.png)
+<p align="center">
+  <img src="https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/model.png" width="400">
+</p>
 - Base Model: BERT-base-uncased
 
 - Tasks:
