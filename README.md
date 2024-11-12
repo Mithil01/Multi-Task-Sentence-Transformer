@@ -118,7 +118,7 @@ SENTENCETRANSFORMER/
      - Validation NER accuracy : 89.9%
        
 ## Components:
-   -  **Data Processing (data_connector.py)**
+   -  **Data Processing ('data_connector.py')**
          - Implements data loading for AG News and CoNLL2003 datasets
          - Custom collator for multi-task learning
            
