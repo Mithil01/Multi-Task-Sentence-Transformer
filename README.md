@@ -63,7 +63,17 @@ This project implements a multi-task transformer that performs:
   <img src="https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/mixed_precision.png" width="400" height="400">
 </p>
 
+- Layer-wise learning rate:
 
+  - Embedding layer:
+    - Lowest Learning rate.
+
+  - Base Transformer layers:
+    - Gradually Increasing Learning rate.
+
+  - Task specific head:
+    - Highest Learning rate.
+    
 ## 2. Model Training
 ``` python
 python src/training_application.py
