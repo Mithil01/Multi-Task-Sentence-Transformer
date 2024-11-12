@@ -24,13 +24,13 @@ This project implements a multi-task transformer that performs:
 
 ## Sentence Transformer
 <p align="left">
-  <img src="https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/model.png" width="400">
+  <img src="https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/sentence_transformer.png" width="400">
 </p>
-   - **Model Configuration: **
+   - **Model Configuration:**
        - ‘Bert-base-uncased’ as backbone.
        - Configurable embedding size.
 
-   - **Pooling strategy: **
+   - **Pooling strategy:**
      - Implemented three different pooling strategies
        1. Mean: averages pooling across all token embeddings.
        2. Cls: Using [Cls] token out from pooler_output. 
