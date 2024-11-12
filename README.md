@@ -18,16 +18,20 @@ src/
 
 ## Model Architecture
 
-Base Model: BERT-base-uncased
+- Base Model: BERT-base-uncased
 
-### Tasks:
+- Tasks:
 
-Classification Head (4 classes)
-NER Head (9 labels)
+-- Classification Head (4 classes)
+-- NER Head (9 labels)
 
 
 ### Features:
 
-Shared transformer backbone
-Layer-wise learning rates
-Task-specific heads
+-- Shared transformer backbone
+-- Layer-wise learning rates
+-- Task-specific heads
+
+## 2. Model Training
+# Run training
+python src/training_application.py
