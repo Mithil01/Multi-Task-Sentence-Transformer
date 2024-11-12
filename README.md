@@ -72,6 +72,11 @@ This project implements a multi-task transformer that performs:
 
   - Task specific head:
     - Highest Learning rate.
+      
+## Results for Multi-task Sentence Transformer.
+   - Number of epochs = 5
+     - Train accuracy :
+     - Test accuracy :
     
 ## 2. Model Training
 ``` python
