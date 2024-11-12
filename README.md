@@ -105,10 +105,15 @@ SENTENCETRANSFORMER/
   - Task specific head:
       - Highest Learning rate.
       
-## Results for Multi-task Sentence Transformer.
+## Model Metrics and Results.
+   - Loss: Crossentropy
+   - Loss weight:
+     - total_loss = classification_weight * classification_loss+ ner_weight * ner_loss
+       
+   - Metric: Accuracy 
    - Number of epochs = 5
-     - Train accuracy :
-     - Test accuracy :
+     - Train Classification accuracy : 97.2%         Validation Classification accuracy : 92.6%
+     - Train NER accuracy : 90.8%                    Validation NER accuracy : 89.9%
     
 ## 2. Model Training
 ``` python
