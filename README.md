@@ -141,18 +141,18 @@ SENTENCETRANSFORMER/
          - Streamlit application for model demo
          
 
-    
-## 2. Model Training
+## Usage    
+- **Model Training**
 ``` python
 python src/training_application.py
 ```
 
-## 2. Evaluate on test samples
+- **Model Evaluation**
 ``` python
 python src/test.py
 ```
 
-## 3. Streamlit application
+- **Streamlit application**
 ``` python
 streamlit run src/app.py
 ```
