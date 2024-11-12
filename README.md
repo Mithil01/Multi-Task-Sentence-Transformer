@@ -16,6 +16,19 @@ src/
 ├── app.py                  # Streamlit web interface
 └── requirements.txt        # Project dependencies
 
+## Datasets
+ - AG News (Classification)
+
+<p> 4 classes: World, Sports, Business, Technology </p>
+<p> </p>Training samples: ~120,000 </p>
+Test samples: ~7,600
+
+CoNLL2003 (NER)
+
+9 labels (B-PER, I-PER, B-ORG, I-ORG, etc.)
+Training sentences: ~14,000
+Test sentences: ~3,453
+
 ## Model Architecture
 
 - Base Model: BERT-base-uncased
