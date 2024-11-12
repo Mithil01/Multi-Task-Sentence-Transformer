@@ -87,21 +87,22 @@ SENTENCETRANSFORMER/
 
   - **Head Architecture:**
     - Both heads follow same structure i.e. dropout for regularization, layer norm, GELU, task specific final projection.
-  - **Mixed Precision Training:**
-    - Utilized torch.cuda autocast function and GradScaler() for mixed precision training.
+      
+  ### **Mixed Precision Training:**
+  - Utilized torch.cuda autocast function and GradScaler() for mixed precision training.
    <p align="left">
     <img src="https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/mixed_precision.png" width="300" height="500">
    </p>
+   
+  ### Layer-wise learning rate:
 
-  - Layer-wise learning rate:
-
-    - Embedding layer:
+  - Embedding layer:
       - Lowest Learning rate.
 
-    - Base Transformer layers:
+  - Base Transformer layers:
       - Gradually Increasing Learning rate.
 
-    - Task specific head:
+  - Task specific head:
       - Highest Learning rate.
       
 ## Results for Multi-task Sentence Transformer.
