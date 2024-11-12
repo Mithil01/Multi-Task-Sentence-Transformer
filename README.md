@@ -14,7 +14,14 @@ This project implements a multi-task transformer that performs:
   ```python
   pip install -r requirements.txt
   ```
+## Docker Image
+```bash
+# Pull the image
+docker pull mithilg1/multitasktransformer
 
+# Run Streamlit app
+docker run -p 8502:8502 mithilg1/multitasktransformer
+```
 ## Directory Structure
 ![Images Alt text](https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/dir_struct.png)
 
