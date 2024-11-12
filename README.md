@@ -25,6 +25,21 @@ docker run -p 8502:8502 mithilg1/multitasktransformer
 ## Directory Structure
 ![Images Alt text](https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/dir_struct.png)
 
+```bash
+SENTENCETRANSFORMER/
+├── src/
+│   ├── app.py                    # Streamlit interface
+│   ├── data_connector.py         # Data processing
+│   ├── MultiTaskmodel.py         # Multi-task model
+│   ├── SentenceTransformer.py    # Base transformer
+│   ├── test.py                   # Testing
+│   ├── training_application.py   # Training execution  
+│   └── training.py               # Training logic
+├── model_path/            # Saved models
+├── Dockerfile            # Docker config
+└── requirements.txt      # Dependencies
+```
+
 ## Datasets
  1. AG News (Classification)
 
