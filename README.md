@@ -3,8 +3,8 @@
 ## Overview
 This project implements a multi-task transformer that performs:
 
-Text Classification: Using AG News dataset (4 classes).
-Named Entity Recognition: Using CoNLL2003 dataset (9 NER tags).
+- Text Classification: Using AG News dataset (4 classes).
+- Named Entity Recognition: Using CoNLL2003 dataset (9 NER tags).
 
 ## Directory Structure
 '''markdown
@@ -18,33 +18,32 @@ src/
 └── requirements.txt        # Project dependencies
 
 ## Datasets
- - AG News (Classification)
+ 1. AG News (Classification)
 
-<p> 4 classes: World, Sports, Business, Technology </p>
-<p> </p>Training samples: ~120,000 </p>
-Test samples: ~7,600
+ - 4 classes: World, Sports, Business, Technology </p>
+- Training samples: ~120,000 
+- Test samples: ~7,600
 
-CoNLL2003 (NER)
+2. CoNLL2003 (NER)
 
-9 labels (B-PER, I-PER, B-ORG, I-ORG, etc.)
-Training sentences: ~14,000
-Test sentences: ~3,453
+- 9 labels (B-PER, I-PER, B-ORG, I-ORG, etc.)
+- Training sentences: ~14,000
+- Test sentences: ~3,453
 
 ## Model Architecture
 
 - Base Model: BERT-base-uncased
 
 - Tasks:
+  - Classification Head (4 classes)
+  - NER Head (9 labels)
 
--- Classification Head (4 classes)
--- NER Head (9 labels)
 
+- Features:
 
-### Features:
-
--- Shared transformer backbone
--- Layer-wise learning rates
--- Task-specific heads
+  - Shared transformer backbone
+  - Layer-wise learning rates
+  - Task-specific heads
 
 ## 2. Model Training
 # Run training
