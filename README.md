@@ -23,6 +23,7 @@ This project implements a multi-task transformer that performs:
 - Test sentences: ~3,453
 
 ## Model Architecture
+<img src="[your_image.png](https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/model.png))" style="max-width: 100%; height: auto;">
 ![Images Alt text](https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/model.png)
 - Base Model: BERT-base-uncased
 
