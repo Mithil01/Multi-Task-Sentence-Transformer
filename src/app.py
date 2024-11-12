@@ -101,11 +101,7 @@ def main():
         # Trained model on Colab T4 GPU, so locally just loading trained weights.
         model = MultitaskSentenceTransformer()
         # Load weights
-
-        REPO_PATH = os.path.dirname(os.path.dirname(__file__))
-        MODEL_PATH = os.path.join(REPO_PATH, 'model_path', 'ST_Model_dict.path')
-        #model.load_state_dict(torch.load('model_path/ST_Model_dict.path', map_location='cpu'))
-        model.load_state_dict(torch.load(MODEL_PATH, map_location='cpu'))
+        model.load_state_dict(torch.load('model_path/ST_Model_dict.path', map_location='cpu'))
         model.eval()
         return model
     
