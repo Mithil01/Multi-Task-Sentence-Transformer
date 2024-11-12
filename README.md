@@ -22,7 +22,7 @@ This project implements a multi-task transformer that performs:
 docker pull mithilg1/multi-task-sentence-transformer
 
 # Run Streamlit app
-docker run -p 8502:8502 mithilg1/multitasktransformer
+docker run -p 8502:8502 mithilg1/multi-task-sentence-transformer
 ```
 ## Directory Structure
 ```bash
