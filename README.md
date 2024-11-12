@@ -7,8 +7,10 @@ This project implements a multi-task transformer that performs:
 
 ## Installation
 - Clone the repository
-  - git clone https://github.com/Mithil01/Multi-Task-Sentence-Transformer.git
-  - cd Multi-Task-Sentence-Transformer
+```bash  
+   git clone https://github.com/Mithil01/Multi-Task-Sentence-Transformer.git
+   cd Multi-Task-Sentence-Transformer
+```
 
 - Install dependencies
   ```python
