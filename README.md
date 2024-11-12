@@ -56,22 +56,24 @@ This project implements a multi-task transformer that performs:
 
 - **Head Architecture:**
     - Both heads follow same structure i.e. dropout for regularization, layer norm, GELU, task specific final projection.
+- **Mixed Precision Training:**
+    - Utilized torch.cuda autocast function and GradScaler() for mixed precision training.
+  <p align="left">
+  <img src="https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/mixed_precision.png" width="400">
+</p>
 
 
 ## 2. Model Training
-# Run training
 ``` python
 python src/training_application.py
 ```
 
 ## 2. Evaluate on test samples
-# Run training
 ``` python
 python src/test.py
 ```
 
 ## 3. Streamlit application
-# Run training
 ``` python
 streamlit run src/app.py
 ```
