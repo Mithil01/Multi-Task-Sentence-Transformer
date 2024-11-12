@@ -19,7 +19,7 @@ This project implements a multi-task transformer that performs:
 ## Docker Image
 ```bash
 # Pull the image
-docker pull mithilg1/multitasktransformer
+docker pull mithilg1/multi-task-sentence-transformer
 
 # Run Streamlit app
 docker run -p 8502:8502 mithilg1/multitasktransformer
@@ -154,3 +154,6 @@ python src/test.py
 ``` python
 streamlit run src/app.py
 ```
+
+## Project Tasks Writeup
+[Doc]()
