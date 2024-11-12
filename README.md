@@ -107,12 +107,11 @@ SENTENCETRANSFORMER/
       
 ## Model Evaluation:
    - **Loss**: Crossentropy
-   - **Task weighing**: total_loss = classification_weight * classification_loss+ ner_weight * ner_loss
+       - **Task weighing**: total_loss = classification_weight * classification_loss+ ner_weight * ner_loss
        
-   - **Metric**: Accuracy
-   - Number of epochs = 5
-   - Train Classification accuracy: 97.2,  Validation Classification accuracy: 92.6%
-   - Train NER accuracy: 90.8%,  Validation NER accuracy: 89.9%
+   - **Metric**: Accuracy, Number of epochs = 5
+       - Train Classification accuracy: 97.2,  Validation Classification accuracy: 92.6%
+       - Train NER accuracy: 90.8%,  Validation NER accuracy: 89.9%
        
 ## Components:
    -  **Data Processing (`data_connector.py`)**
