@@ -23,8 +23,6 @@ docker pull mithilg1/multitasktransformer
 docker run -p 8502:8502 mithilg1/multitasktransformer
 ```
 ## Directory Structure
-![Images Alt text](https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/dir_struct.png)
-
 ```bash
 SENTENCETRANSFORMER/
 ├── src/
