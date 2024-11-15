@@ -91,7 +91,7 @@ SENTENCETRANSFORMER/
   ### **Mixed Precision Training:**
   - Utilized torch.cuda autocast function and GradScaler() for mixed precision training.
    <p align="left">
-    <img src="https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/mixed_precision.png" width="300" height="500">
+    <img src="https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/Mixed_precision.png" width="300" height="500">
    </p>
    
   ### Layer-wise learning rate:
