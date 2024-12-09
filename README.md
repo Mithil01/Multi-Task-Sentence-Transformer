@@ -1,5 +1,5 @@
 # Multi-Task-Sentence-Transformer
-<p align="center">
+<p align="left">
       <img src="https://github.com/Mithil01/Multi-Task-Sentence-Transformer/blob/main/images/model.png" width="400">
 </p>
 This project implements a multi-task transformer that performs:
